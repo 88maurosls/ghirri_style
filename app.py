@@ -71,7 +71,7 @@ if uploaded_file is not None:
     st.download_button(
         label="Scarica immagine elaborata",
         data=buffer,
-        file_name="ghirri_style.jpg",
+        file_name="pastel_style.jpg",
         mime="image/jpeg"
     )
 
