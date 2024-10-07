@@ -44,7 +44,7 @@ def ghirri_style(image):
     return img
 
 # Titolo dell'app Streamlit
-st.title("Filtro Stile Ghirri per Immagini")
+st.title("Pastel style")
 
 # Carica immagine da elaborare
 uploaded_file = st.file_uploader("Carica un'immagine", type=["jpg", "jpeg", "png"])
